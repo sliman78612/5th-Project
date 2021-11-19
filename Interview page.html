@@ -1,0 +1,99 @@
+<html>
+    <head>
+
+        <title>5th</title>
+        <link rel="stylesheet" href="5th.css"></link>
+
+    </head>
+
+
+    <body  onload="interviewLoad('priscilla');">
+
+        <!-- before coming to page, on click to transition here use play walkout scene  -->
+
+
+        <div id="ContentContainer">
+
+
+
+
+            <video>
+            </video>
+
+            <video id="quetionBox" autoplay width="100%">
+                <source src="interviews/priscilla/q1.mp4" type="video/mp4" />
+            </video>
+
+
+
+            <img src="Notebook Icon.png" id="notepadIcon" onclick="toggleNotepad();">
+
+            <div class="questionContainer">
+
+                <svg width=100% viewbox="0 0 1920 1080">
+
+
+
+
+                </svg>
+
+
+
+            </div>
+
+
+            <div id="Notepad">
+
+                <svg height=100% viewBox="0 0 1000 1080">
+
+
+                    <g id="Layer_1">
+                        <title>Layer 1</title>
+                        <rect id="svg_14" height="821.17838" width="542.3542" y="135.29569" x="229.41343" stroke="#000" fill="white" />
+                        <ellipse stroke="#000" ry="40.74285" rx="22.14285" id="svg_2" cy="136.45714" cx="317.85714" fill="none" />
+                        <ellipse stroke="#000" ry="40.74285" rx="22.14285" id="svg_3" cy="137.88571" cx="410.71429" fill="none" />
+                        <ellipse stroke="#000" ry="40.74285" rx="22.14285" id="svg_4" cy="137.88571" cx="502.14286" fill="none" />
+                        <ellipse stroke="#000" ry="40.74285" rx="22.14285" id="svg_5" cy="137.88571" cx="587.85715" fill="none" />
+                        <ellipse stroke="#000" ry="40.74285" rx="22.14285" id="svg_6" cy="137.88571" cx="675.00001" fill="none" />
+                        <line id="svg_7" y2="228.57143" x2="285.71429" y1="228.57143" x1="360" stroke="#000" fill="none" />
+                        <line id="svg_8" y2="230" x2="284.28571" y1="275.71429" x1="321.42857" stroke="#000" fill="none" />
+                        <path id="svg_9" d="m320,195.71429l-30,27.14286" opacity="undefined" stroke="#000" fill="none" />
+                        <line id="svg_10" y2="240" x2="712.85714" y1="241.42857" x1="638.57143" stroke="#000" fill="none" />
+                        <line id="svg_11" y2="235.71429" x2="717.14286" y1="211.42857" x1="654.28571" stroke="#000" fill="none" />
+                        <line id="svg_12" y2="237.14286" x2="718.57143" y1="274.28571" x1="688.57143" stroke="#000" fill="none" />
+                        <line id="svg_13" y2="360" x2="725.71429" y1="355.71429" x1="284.28571" stroke="#000" fill="none" />
+
+                        <!-- Character name user variable -->
+                        <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="39" stroke-width="0" id="svg_15" y="341.17852" x="288.2371" stroke="#000" fill="#000000">Characters name</text>
+
+                        <!-- use textarea and stuff in a form tag for feedback -->
+
+
+                        <foreignObject x="300" y="400" width="400" height="500">
+                            <textarea id="takenNotes">Typeable text area test</textarea>
+                        </foreignObject>
+
+                    </g>
+
+
+                </svg>
+
+            </div>
+
+        </div>
+
+        <script src="5th.js"></script>
+    </body>
+
+</html>
+
+<!--
+    To do
+    overlay on svg,
+    hitboxes
+    play interview videos -- .innerhtml to add it end and over everything, destory child after playing, change ccs variable to make it look blocked
+
+
+
+
+-->

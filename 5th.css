@@ -1,0 +1,270 @@
+.start{
+    
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+button{
+    border: 0px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+.icon{
+    height:30px;
+    width:30px;
+    position: relative;
+    nav-down: 10px;
+}
+.icon1{
+    height:30px;
+    width:30px;
+    position: relative;
+    top: -5px;
+}
+
+.srch{
+    position: relative;
+    top: -10px;
+}
+
+img{
+  max-width: 100%;
+  
+}
+
+input{
+    height: 30px;
+}
+
+.grid{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.imgContainer{
+    max-width: 20%;
+    max-height: 20%;
+    min-width: 15%;
+    min-width: 250px;
+    border: 2px solid black;
+    margin: 4px;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;    
+}
+
+.binIcon{
+    height: 20px;
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    
+}
+
+.binIcon:hover{
+   cursor: pointer;
+    
+}
+
+.discriptor{
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    
+}
+
+/*  */
+
+#ContentContainer{
+
+    width: 100%;
+    background-color: rgb(119, 53, 53);
+    padding-top: 56.25%; /* 1:1 Aspect Ratio */
+    position: relative;
+
+}
+
+.homePageContentContainer{
+
+    background-color: rgb(119, 53, 53);
+    padding-top: 56.25%; /* 1:1 Aspect Ratio */
+    position: relative;
+    background-image: url("5th background Cropped.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    background-color: black;
+}
+
+.backgroundImage{
+
+    position: absolute;
+    top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+}
+
+.title{
+    position: absolute;
+    text-align: center;
+    top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 4vw;
+color: wheat;
+
+}
+
+h1{
+    margin-top: 0px;
+
+
+}
+
+.start{
+position: absolute;
+color: wheat;
+top:93%;
+font-size: 2vw;
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+}
+
+/* *{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+} */
+
+*{
+
+opacity: inherit;
+
+}
+
+.gameSelection{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 30%;
+    top:60%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.loadGame{
+    background-color: red;
+    border-radius: 25px;
+    width: 15%;
+    color: wheat;
+    text-align: center;
+    font-size: 1.5vw;
+    top: 1%;
+
+}
+
+img{
+    border-radius: 25px;
+
+}
+img:hover{
+
+cursor: pointer;
+}
+
+
+
+
+.selectable:hover{
+    cursor: pointer;
+
+}
+    
+#introAnimation{
+
+    top: 130;
+
+}
+
+ video {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  }
+
+  #notepadIcon{
+
+    position: absolute;
+    top: 5;
+    left: 0;
+    width: 10%;
+
+  }
+
+  #Notepad{
+
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 25%;
+   height: 100%;
+
+ 
+  }
+
+  #takenNotes{
+
+    font-size: 2vw;
+    width:  calc(31vw);      /* calc and viewport to the rescue */
+   height: calc(50vh);
+  resize: none; 
+  border: none;
+
+  }
+
+  .questionContainer{
+
+    
+    position: absolute;
+    top: 0;
+  }
